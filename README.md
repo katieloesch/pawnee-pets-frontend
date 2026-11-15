@@ -3,15 +3,14 @@
 ## Overview
 
 1. [Description](#description)
-2. [Deployment Links](#deployment-links)
-3. [Installation](#installation)
-4. [Technologies Used](#technologies)
-5. [Deliverables](#deliverables)
-6. [Planning/Build Process](#planning)
-7. [Challenges](#challenges)
-8. [Wins](#wins)
-9. [Key Learnings & Takeaways](#takeaways)
-10. [Future Improvements](#future-improvements)
+2. [Installation](#installation)
+3. [Technologies Used](#technologies)
+4. [Deliverables](#deliverables)
+5. [Planning/Build Process](#planning)
+6. [Challenges](#challenges)
+7. [Wins](#wins)
+8. [Key Learnings & Takeaways](#takeaways)
+9. [Future Improvements](#future-improvements)
 
 <br>
 
@@ -26,14 +25,7 @@ Featuring freelance jobs posted by pet owners, the application enables users to 
 
 <img src="./src/assets/readme_images/landing_page_responsive.jpg" height=400px><img src="./src/assets/readme_images/responsive_services.jpg" height=400px><img src="./src/assets/readme_images/jobs_resp.jpg" height=400px>
 
-## <a name="deployment-links"></a> 2. Deployment Links
-
-- Front end Deployment: https://pawnee-pets.katieloesch.co.uk/
-
-- Back end repository: https://github.com/katieloesch/p4-rails
-  - rails application deployed on [Heroku](http://www.heroku.com/): https://p4-rails.herokuapp.com
-
-## <a name="installation"></a> 3. Installation
+## <a name="installation"></a> 2. Installation
 
 ### Front end dependencies:
 
@@ -57,7 +49,7 @@ npm install
 bundle install
 ```
 
-## <a name="technologies"></a> 4. Technologies Used
+## <a name="technologies"></a> 3. Technologies Used
 
 ### Front End
 
@@ -148,7 +140,7 @@ rails new p4-rails --api
   - https://www.youtube.com/watch?v=wVNQwrALp1A
   - https://github.com/DakotaLMartinez/rails-react-devise-tutorial
 
-## <a name="deliverables"></a> 5. Deliverables
+## <a name="deliverables"></a> 4. Deliverables
 
 ### MVP requriements
 
@@ -171,7 +163,7 @@ rails new p4-rails --api
 - Redux
 - inclusion of automated tests using Jest / RSpec or MiniTest for Rails
 
-## <a name="planning"></a>6. Planning / Build Process
+## <a name="planning"></a>5. Planning / Build Process
 
 ### Timeframe
 
@@ -638,27 +630,27 @@ After I finished the styling for the project, I finally created some seed data f
 
 On the final day of this project I added content to the readme document and presented the project to my cohort.
 
-## 7. <a name="challenges"></a> Challenges
+## 6. <a name="challenges"></a> Challenges
 
 - deployment on the front end on Netlify proved to be a challenge as there were issues with the fetch requests not working properly.
 - I originally created the back end with a sqlite database instead of postgresql and had to later account for that during deployment, which made things more complicated.
 - the react-datepicker component I used formatted the date in a different way than the rails datetime format, which required writing some extra code to account for this inconsistency.
 - the [documentation](https://dakotaleemartinez.com/tutorials/devise-jwt-api-only-mode-for-authentication/) I followed to set up devise authentication contained a couple of typos which I only noticed after copying some of the commands to the CLI, which resulted in several error messages.
 
-## 8. <a name="wins"></a> Wins
+## 7. <a name="wins"></a> Wins
 
 - I managed to fulfil all the MVP requirements.
 - I was glad to have managed the implementation of the responsive design for this project within the given timeframe as I had run out of time in previous projects to make the applications fully responsive.
 - I successfully implemented authentication with devise which I had not used before in a project.
 
-## <a name="takeaways"></a> 9. Key Learnings & Takeaways
+## <a name="takeaways"></a> 8. Key Learnings & Takeaways
 
 - It is useful to think about how to implement authentication before generating a User model in the back end.
 - Using CSS variables saves a lot of time when programmming in vanilla CSS.
 - It is easier to implement a responsive design as you do the styling of different elements rather than leaving it until the final stages of development.
 - Always check for typos before copying and pasting commands to the CLI.
 
-## <a name="future-improvements"></a> 10. Future Improvements
+## <a name="future-improvements"></a> 9. Future Improvements
 
 - add 3rd party API
 - incorporate Redux
